@@ -1,0 +1,44 @@
+# Qt build directories
+*.pro.user
+*.pro.user.*
+*.qmake.stash
+*.qmake.cache
+build/
+
+# Qt Creator IDE files
+*.creator
+*.autosave
+*.user
+*.user.*
+
+# Compiled binary files
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.out
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Qt meta-configuration files
+*.moc
+*.qrc
+*.ui
+
+# CMake files
+CMakeLists.txt.user
+CMakeCache.txt
+Makefile
+CMakeFiles/
+
+# Qt QML build output
+qml/.qmlc
+qml/.moc
+
+# Backup files
+*~
+*.bak
+*.swp
